@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Profile Form</title>
+    
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #dbeafe, #eff6ff);
+    margin: 0;
+    padding: 20px;
+    border: 10px solid navy;
+}
+
+.container{
+    width: 60%;
+    max-width: 900px;
+    margin: auto;
+    background: lightblue;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    border: 3px solid darkblue;
+}
+
+h1{
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+label{
+    font-weight: bold;
+    color: #1e293b;
+}
+
+input, textarea{
+    width: 95%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    font-size: 15px;
+    border: 2px solid #2563eb;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=submit]{
+    background: linear-gradient(to bottom right, #dbeafe, #eff6ff);
+    color: blue;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover{
+    background-color: #1d4ed8;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px){
+
+    .container{
+        width: 90%;
+    }
+
+}
+
+.nav-buttons{
+    margin-top: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 20px;
+    margin-right: 10px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #1e40af;
+    transform: scale(1.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Personal Profile Form</h1>
+
+        <form action="ProfileServlet" method="POST">
+
+            <label><i class="fa fa-user"></i> Name:</label>
+            <input type="text" name="name">
+
+            <label><i class="fa fa-id-card"></i> Student ID:</label>
+            <input type="text" name="studentid">
+
+            <label><i class="fa fa-book"></i> Program:</label>
+            <input type="text" name="program">
+
+            <label><i class="fa fa-envelope"></i> Email:</label>
+            <input type="email" name="email">
+
+            <label><i class="fa fa-heart"></i> Hobbies:</label>
+            <input type="text" name="hobbies">
+            
+            <label><i class="fa fa-pencil"></i> Short Introduction:</label>
+            <textarea name="intro"></textarea>
+
+            <input type="submit" value="Submit">
+            
+            <br><br>
+
+            <div class="nav-buttons">
+
+            <a href="contact.html" class="btn">
+                <i class="fa fa-phone"></i> Contact Page
+            </a>
+
+            <a href="health.html" class="btn">
+                <i class="fa fa-heartbeat"></i> Healthcare Page
+            </a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

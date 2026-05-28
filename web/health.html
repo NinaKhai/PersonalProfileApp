@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Healthcare Form</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+        body{
+            font-family: Arial;
+            background: linear-gradient(to right, #dcfce7, #ecfccb);
+            padding: 20px;
+        }
+
+        .container{
+            width: 50%;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px gray;
+            border: 4px solid darkgreen;
+        }
+
+        h1{
+            text-align: center;
+            color: darkgreen;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+        input, textarea{
+            width: 100%;
+            padding: 12px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: 2px solid #4ade80;
+            outline: none;
+            transition: 0.3s;
+        }
+        
+        input:focus, textarea:focus{
+    border-color: darkgreen;
+    box-shadow: 0px 0px 8px #86efac;
+        }
+
+        input[type=submit]{
+            background-color: darkgreen;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-home{
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 22px;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-home:hover{
+            background-color: #1e40af;
+            transform: scale(1.05);
+        }
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Healthcare Information Form</h1>
+
+<form action="HealthServlet" method="POST">
+
+<label><i class="fa fa-calendar"></i> Age:</label>
+<input type="text" name="age">
+
+<label><i class="fa fa-tint"></i> Blood Type:</label>
+<input type="text" name="blood">
+
+<label><i class="fa fa-weight-scale"></i> Weight:</label>
+<input type="text" name="weight">
+
+<label><i class="fa fa-ruler-vertical"></i> Height:</label>
+<input type="text" name="height">
+
+<label><i class="fa fa-triangle-exclamation"></i> Allergies:</label>
+<input type="text" name="allergies">
+
+<label><i class="fa fa-heart-pulse"></i> Health Condition:</label>
+<textarea name="condition"></textarea>
+
+<input type="submit" value="Submit Health Form">
+
+</form>
+
+<br>
+
+<a href="index.html" class="btn-home">
+    <i class="fa fa-home"></i> Back to Homepage
+</a>
+
+</div>
+
+</body>
+</html>
