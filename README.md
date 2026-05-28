@@ -11,16 +11,22 @@ This project is developed using HTML, CSS, JSP and Java.
 ## Interface Screenshots
 
 ### Homepage
-![Homepage](homepage.png)
+![Homepage](Pciture1.jpg)
+
+### Result Page Personal Info
+![Result Page](Picture2.png)
 
 ### Contact Form
-![Contact Form](contact.png)
+![Contact Form](Picture3.jpg)
+
+### Result Page Contcat Info
+![Result Page](Picture4.png)
 
 ### Healthcare Form
-![Healthcare Form](healthcare.png)
+![Healthcare Form](Picture5.jpg)
 
-### Result Page
-![Result Page](resultpage.png)
+### Result Page Healthare Summary
+![Result Page](Picture6.png)
 
 ## Developed By
 Nor Amalina Binti Kamarulzaman
