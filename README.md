@@ -11,7 +11,7 @@ This project is developed using HTML, CSS, JSP and Java.
 ## Interface Screenshots
 
 ### Homepage
-![Homepage](Pciture1.jpg)
+![Homepage](Picture1.jpg)
 
 ### Result Page Personal Info
 ![Result Page](Picture2.png)
