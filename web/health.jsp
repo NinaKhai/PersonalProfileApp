@@ -10,8 +10,16 @@
 <style>
 
 body{
-    font-family: Arial;
-    background-color: #f0fdf4;
+    font-family: 'Segoe UI', sans-serif;
+
+    background-image: url('healthbg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 40px;
 }
 
 .container{
@@ -27,6 +35,32 @@ body{
 h1{
     text-align: center;
     color: darkgreen;
+}
+
+.btn{
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 12px 20px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #1e40af;
+
+    transform: scale(1.05);
 }
 
 </style>
@@ -55,8 +89,8 @@ h1{
 
 <br>
 
-<a href="index.html">
-<button>Back to Homepage</button>
+<a href="index.html" class="btn">
+    ← Back to Homepage
 </a>
 
 </div>

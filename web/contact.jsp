@@ -10,23 +10,74 @@
 <style>
 
 body{
-    font-family: Arial;
-    background-color: #eef2ff;
+    font-family: 'Segoe UI', sans-serif;
+
+    background-image: url('contactpage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    margin: 0;
+    padding: 40px;
 }
 
 .container{
-    width: 50%;
+    width: 60%;
+
     margin: auto;
     margin-top: 30px;
-    background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 10px gray;
+
+    background: rgba(255,255,255,0.9);
+
+    backdrop-filter: blur(5px);
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
 }
 
 h1{
     text-align: center;
     color: darkblue;
+}
+
+p{
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #1f2937;
+}
+
+b{
+    color: #1e3a8a;
+}
+
+.btn{
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 12px 20px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: #1e40af;
+
+    transform: scale(1.05);
 }
 
 </style>
@@ -47,8 +98,8 @@ h1{
 
 <br>
 
-<a href="index.html">
-<button>Back to Homepage</button>
+<a href="index.html" class="btn">
+    ← Back to Homepage
 </a>
 
 </div>
